@@ -21,6 +21,9 @@ Coloque o **código-fonte da BuildForge** num repositório do seu GitHub.
 - Autorize o Railway a ver seus repositórios e escolha o repo da **BuildForge**.
 - O Railway detecta Next.js e começa o build automaticamente.
 
+> ⚠️ **Node 20+ obrigatório.** O projeto já traz `.nvmrc`, `nixpacks.toml` e `engines` fixando Node 20.
+> Se ainda usar Node 18, vá em **Variables** e adicione `NIXPACKS_NODE_VERSION = 20`.
+
 ### 3. Adicionar o banco PostgreSQL
 - Dentro do projeto, toque em **New** (ou **Create** / **+**) → **Database** → **Add PostgreSQL**.
 - O Railway cria o banco e a variável de conexão.
